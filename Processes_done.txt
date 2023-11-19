@@ -1,0 +1,10 @@
+create new git repository
+create a new folder in your computer in which the whole project will be happening
+open anaconda prompt and change the directory to that folder {cd path_of_folder}
+use command {code .} to open VS Code to that path_of_folder
+open new terminal and use command {conda create -p venv python==3.10 -y} so that all the packages that are going to be installed will be in this folder only
+now in anaconda prompt write command {conda activate venv} i.e. "package folder of project"
+now in the terminal copy paste all the commands at "…or create a new repository on the command line" from browser git new repository page
+before copy pasting the last command you need to configure your git globally
+for that use command {git config --global user.name "USER NAME"} and {git config --global user.email emailid.com}
+now use last push command
